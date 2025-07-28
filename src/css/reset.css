@@ -7,11 +7,12 @@ h6,
 p {
   margin: 0;
 }
-
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 p:last-child {
   margin-bottom: 0;
 }
-
 ul {
   margin: 0;
   padding: 0;
@@ -22,11 +23,9 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-
 button {
   cursor: pointer;
 }
-
 img {
   display: block;
   max-width: 100%;

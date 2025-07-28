@@ -1,0 +1,13 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 24px;
+}
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+.gallery-item:hover {
+    transform: scale(1.05);
+}
